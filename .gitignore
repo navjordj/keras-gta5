@@ -1,0 +1,5 @@
+*.h5
+*.npy
+*.pyc
+*.model
+*.json

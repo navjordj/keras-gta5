@@ -45,9 +45,9 @@ def main():
     np.save('training_data_balanced6.npy', final_data)
 
 if  __name__ == "__main__":
-    Navn = 'training_data.npy'
+    name = 'training_data.npy'
     try:
-        train_data = np.load(Navn)
+        train_data = np.load(name)
     except:
-        print("{} ikke funnet".format(Navn))
+        print("{} ikke funnet".format(name))
     main()

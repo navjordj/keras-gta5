@@ -1,5 +1,4 @@
 import numpy as np 
-import matplotlib.pyplot as plt
 
 import datetime
 from keras.utils import to_categorical
@@ -21,11 +20,6 @@ for i in range(len(train)):
 
 X = np.array(X)
 y = np.array(y)
-
-print(X.shape)
-
-plt.imshow(X[0])
-#plt.show()
 
 print([1, 0, 0] in y)
 

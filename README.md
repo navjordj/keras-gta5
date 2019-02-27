@@ -2,6 +2,8 @@
 Self driving car in GTA5 made with Keras on tensorflow backend. 
 It is based on taking a image of the screen aswell as the players action as training data and label. It is not reccomended at the moment to use it in the city, but it performs really well on the highway going around the map.
 
+It is greatly inspired by [this](https://www.youtube.com/watch?v=ks4MPfMq8aQ) fantastic video series by [Sentdex](https://github.com/Sentdex).
+
 ### Prerequisites
 
 ```
@@ -31,3 +33,10 @@ To unleash the AI in Los Santos, run predict.py. It will start a countdown and t
 ## Comments
 
 To train the CNN, a powerful GPU is a must. Training times on a GTX 1070 TI 8GB is around 1 hour on 150 000 images. 
+
+## To do:
+* Add video showcasing performance
+* Work on quality of code
+* Create setup.py
+* Upload weights and training data
+* Generalize to other racing games
